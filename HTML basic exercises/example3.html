@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="dateTitle"></title>
+</head>
+<body>
+        <p>
+            When was this webpage created? 
+            Check page's title for the answer.
+        </p>
+</body>
+<script>
+    setInterval(() => {
+        document.getElementById('dateTitle').innerHTML = new Date()
+    }, 1000)
+</script>
+</html>
